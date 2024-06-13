@@ -86,3 +86,15 @@ In every new page ```header.php``` and ```topbar.php``` must be included , ```he
 Most pagse are devided into three parts top/side/body , to achive this we have writen 3 class ```xt-card-organizations``` the main wrapper inside that we have ```xt-sidebar-organization1``` and ```xt-body-organization1```
 
 #### The ```bennit_n.sql``` conatins the structure of the data base
+
+```
+in config/config.php
+
+define('STRIPE_KEY_SK_TEST','The_key')
+define('STRIPE_KEY_PK_TEST','The_key')
+
+for testing replace them with test_key , and for live replace them with live_key
+
+other thant this the config.php is same as before
+
+```
