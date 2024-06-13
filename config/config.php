@@ -22,8 +22,8 @@ ANALYTICS;
 
 //Stripe config
 
-define('STRIPE_KEY_SK_TEST',"sk_test_8z8Jqas7spRk9YPPIRLHPGQx00IisVst2m");
-define('STRIPE_KEY_PK_TEST',"pk_test_0lvSd0ZdV3QS4tk95wm7pDT7001xPsCsws");
+define('STRIPE_KEY_SK_TEST',"The_key");
+define('STRIPE_KEY_PK_TEST',"The_key");
 //Partner API access config
 $partnerKeys = [0000, 1234, 9999];
 $partner_permissions = array();
