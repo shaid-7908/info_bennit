@@ -67,6 +67,7 @@ So for example, to show a list of users, a function in `classes/Users.php` class
 Generally, each UI page: checks if the user is logged in, shows any pending messages from server-side actions, checks if the user belongs there (has sufficient privileges and/or data), parses any queries (GET, POST or both, depending on the page), then interacts with the classes to perform any requested actions, then load and display data or results.
 
 ## Aditional info for code added by Xanther
+The main entery point and the flow is almost same as before , we are still tracking the ``first_run`` to complete on boarding ,
 
 No changes have been made in the code in regards to security , the login and registration process is same as before with few tweaking.
 
@@ -84,4 +85,4 @@ In every new page ```header.php``` and ```topbar.php``` must be included , ```he
 
 Most pagse are devided into three parts top/side/body , to achive this we have writen 3 class ```xt-card-organizations``` the main wrapper inside that we have ```xt-sidebar-organization1``` and ```xt-body-organization1```
 
-#### The bennit_n.sql conatins the structure of the data base
+#### The ```bennit_n.sql``` conatins the structure of the data base
